@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    color-scheme: dark;
+  }
+  
+  body {
+    background-color: #06080e;
+    color: #f8fafc;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  /* Custom subtle scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #06080e;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1e2e50;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2a3f6d;
+  }
+}
+
+/* Abstract tech grid background pattern */
+.bg-tech-grid {
+  background-size: 36px 36px;
+  background-image: 
+    linear-gradient(to right, rgba(30, 46, 80, 0.15) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(30, 46, 80, 0.15) 1px, transparent 1px);
+}
+
+.bg-tech-dots {
+  background-size: 24px 24px;
+  background-image: radial-gradient(rgba(59, 130, 246, 0.12) 1px, transparent 1px);
+}
+
+/* Subtle glow utilities */
+.glow-border {
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.glow-border:hover {
+  border-color: rgba(96, 165, 250, 0.4);
+  box-shadow: 0 0 16px -4px rgba(59, 130, 246, 0.15);
+}
+
+.glow-pink-border {
+  border: 1px solid rgba(244, 114, 182, 0.18);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.glow-pink-border:hover {
+  border-color: rgba(244, 114, 182, 0.35);
+  box-shadow: 0 0 16px -4px rgba(244, 114, 182, 0.12);
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
