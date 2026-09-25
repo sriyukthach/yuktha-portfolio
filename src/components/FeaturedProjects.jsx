@@ -22,19 +22,19 @@ export default function FeaturedProjects() {
     { id: 'all', label: 'All Projects' },
     { id: 'ai', label: 'AI & ML' },
     { id: 'web', label: 'Full-Stack Web' },
-    { id: 'hackathon', label: 'Hackathons & SIH' }
+    { id: 'hackathon', label: 'Hackathons' }
   ];
 
   const filteredProjects = featuredProjects.filter((project) => {
     if (filter === 'all') return true;
     if (filter === 'ai') {
-      return project.id === 'smartbundle-ai' || project.id === 'ruralrise';
+      return project.id === 'smartbundle-ai' || project.id === 'ruralrise' || project.id === 'foodlink-ai';
     }
     if (filter === 'web') {
-      return project.id === 'novelnest' || project.id === 'customcraft' || project.id === 'bugtrace';
+      return project.id === 'novelnest' || project.id === 'customcraft' || project.id === 'bugtrace' || project.id === 'foodlink-ai';
     }
     if (filter === 'hackathon') {
-      return project.category.includes('Hackathon') || project.category.includes('SIH');
+      return project.category.includes('Hackathon') || project.category.includes('SIH') || project.id === 'foodlink-ai';
     }
     return true;
   });
