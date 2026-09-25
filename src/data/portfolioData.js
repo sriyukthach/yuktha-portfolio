@@ -22,9 +22,7 @@ export const skillsData = [
     skills: [
       "Machine Learning",
       "Generative AI",
-      "Prompt Engineering",
-      "TF-IDF",
-      "Cosine Similarity"
+      "Prompt Engineering"
     ]
   },
   {
@@ -63,7 +61,7 @@ export const skillsData = [
     accent: "blue",
     description: "Relational data modeling, query formulation, and foundational data structures.",
     skills: [
-      "SQL (Basics)",
+      "SQL",
       "SQLite",
       "Data Structures in C"
     ]
@@ -200,6 +198,25 @@ export const featuredProjects = [
     ],
     github: "https://github.com/pvsatvika/BugTrace",
     demo: null
+  },
+  {
+    id: "foodlink-ai",
+    title: "FoodLink-AI — AI-Assisted Food-Waste Redistribution Platform",
+    shortTitle: "FoodLink-AI",
+    subtitle: "AI-Assisted Food-Waste Redistribution Platform",
+    category: "Hackathon Project",
+    badge: "GenAI & Logistics",
+    description: "An AI-assisted food-waste redistribution platform intelligently connecting surplus food donors, charities, and delivery logistics to optimize donation matching and reduce avoidable food wastage.",
+    technologies: ["React", "TypeScript", "Vite", "Express.js", "Google Gemini API", "Tailwind CSS", "Node.js", "Git", "GitHub"],
+    features: [
+      "Multi-stakeholder workflows coordinating donors, NGOs/charities, and delivery drivers",
+      "Gemini AI-powered donation prioritization based on expiry time and dietary suitability",
+      "Intelligent matching taking into account charity capacity and location proximity",
+      "Surplus food logging with real-time status dispatch tracking",
+      "Full-stack architecture with Express.js backend and responsive React interface"
+    ],
+    github: "https://github.com/sriyukthach/FoodLink-AI",
+    demo: null
   }
 ];
 
@@ -290,40 +307,78 @@ export const hackathonsAndAchievements = [
 
 export const certifications = [
   {
+    title: "HackerRank — CSS Basics Certification",
+    fullTitle: "Certificate of Accomplishment – CSS (Basic)",
+    issuer: "HackerRank",
+    category: "Programming",
+    iconName: "Award",
+    recipient: "Chebiyyam Sri Yuktha",
+    date: "23 February 2026",
+    certificateId: "48394A982CA",
+    image: "certificates/hackerrank-css-basic.png"
+  },
+  {
+    title: "HackerRank — C Language Certification",
+    issuer: "HackerRank",
+    category: "Programming",
+    iconName: "Award",
+    image: null
+  },
+  {
+    title: "HackerRank — Python Language Certification",
+    issuer: "HackerRank",
+    category: "Programming",
+    iconName: "Award",
+    image: null
+  },
+  {
+    title: "AWS Educate — Machine Learning Foundations",
+    issuer: "AWS Educate",
+    category: "Machine Learning",
+    iconName: "Brain",
+    image: "certificates/aws-educate-ml-foundations.png"
+  },
+  {
+    title: "AWS Educate — Introduction to Generative AI",
+    issuer: "AWS Educate",
+    category: "Cloud & GenAI",
+    iconName: "Cloud",
+    image: "certificates/aws-educate-genai.png"
+  },
+  {
+    title: "Google DeepMind Learning Track",
+    issuer: "Google DeepMind",
+    category: "Deep Learning & GenAI",
+    iconName: "Sparkles",
+    image: "certificates/google-deepmind-track.png"
+  },
+  {
     title: "Claude 101 – AI Fundamentals Course",
     issuer: "Anthropic",
     category: "AI / LLM",
-    iconName: "Sparkles"
+    iconName: "Sparkles",
+    image: null
   },
   {
     title: "AI Fluency: Framework & Foundations",
     issuer: "Anthropic",
     category: "AI Frameworks",
-    iconName: "Cpu"
-  },
-  {
-    title: "Introduction to Generative AI",
-    issuer: "AWS Educate",
-    category: "Cloud & GenAI",
-    iconName: "Cloud"
-  },
-  {
-    title: "Machine Learning Foundations",
-    issuer: "AWS Educate",
-    category: "Machine Learning",
-    iconName: "Brain"
+    iconName: "Cpu",
+    image: null
   },
   {
     title: "Women Who Master Hackathon — Certificate of Participation",
     issuer: "Logitech × Aspire For Her",
     category: "Hackathon",
-    iconName: "Award"
+    iconName: "Award",
+    image: "certificates/women-who-master.png"
   },
   {
     title: "Adobe University Hackathon — Certificate of Participation",
     issuer: "Adobe × Unstop",
     category: "Hackathon",
-    iconName: "Award"
+    iconName: "Award",
+    image: null
   }
 ];
 
