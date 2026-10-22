@@ -217,7 +217,67 @@ export const featuredProjects = [
     ],
     github: "https://github.com/sriyukthach/FoodLink-AI",
     demo: null
-  }
+  },
+    {
+      id: "spacemissionai",
+      title: "SpaceMissionAI — AI‑Powered Space Mission Explainer Bot",
+      shortTitle: "SpaceMissionAI",
+      subtitle: "AI chatbot for space‑mission education",
+      category: "AI & ML",
+      badge: "Streamlit • Gemini Flash",
+      description: "An AI‑driven chatbot that explains rocket launches, satellite deployment, and mission‑control processes using Retrieval‑Augmented Generation with Google Gemini Flash.",
+      technologies: ["Python","Streamlit","Google Gemini Flash","ChromaDB","LangChain","Sentence‑Transformers","PyPDF"],
+      github: "https://github.com/sriyukthach/SpaceMissionAI",
+      demo: "https://spacemissionai.streamlit.app/"
+    },
+    {
+      id: "nordtrace",
+      title: "NordTrace — Verified Norwegian Company Intelligence Agent",
+      shortTitle: "NordTrace",
+      subtitle: "Signalpost hackathon company intelligence tool",
+      category: "AI & ML",
+      badge: "CLI • SQLite • Python",
+      description: "High‑throughput Norwegian company intelligence agent that queries the Brønnøysund Register, extracts structured financial & corporate data, and stores results in SQLite while respecting robots.txt and API budgets.",
+      technologies: ["Python","Typer","SQLite","Requests","Robots.txt parser"],
+      github: "https://github.com/sriyukthach/NordTrace",
+      demo: null
+    },
+    {
+      id: "repotrace",
+      title: "RepoTrace — Code Archaeology & Repository Intelligence Tool",
+      shortTitle: "RepoTrace",
+      subtitle: "Graph‑based repository evolution explorer",
+      category: "AI & ML",
+      badge: "Neo4j • Python",
+      description: "Tool that ingests a GitHub repo’s history, builds a graph of commits, PRs, issues, and files, and answers natural‑language questions with provenance‑backed evidence.",
+      technologies: ["Python","Neo4j","GraphQL","Typer"],
+      github: "https://github.com/pvsatvika/RepoTrace",
+      demo: null
+    },
+    {
+      id: "socialpulse-ai",
+      title: "SocialPulse‑AI — YouTube Channel Intelligence Platform",
+      shortTitle: "SocialPulse‑AI",
+      subtitle: "YouTube‑first audience insights",
+      category: "AI & ML",
+      badge: "YouTube Data API • Gemini • Vectorize",
+      description: "Analyzes public YouTube channel data (videos, comments, likes) to surface content performance patterns, audience interests, and actionable recommendations using Gemini for natural‑language synthesis.",
+      technologies: ["Python","YouTube Data API v3","Google Gemini","Vectorize Hindsight","SQLite"],
+      github: "https://github.com/sruthi-r-22/SocialPulse-AI",
+      demo: null
+    },
+    {
+      id: "dataforge",
+      title: "Data_Forge — Autonomous AI‑Assisted Data Cleaning Platform",
+      shortTitle: "Data_Forge",
+      subtitle: "Deterministic, version‑controlled data cleaning",
+      category: "AI & ML",
+      badge: "FastAPI • Vercel • React",
+      description: "An AI‑assisted data‑cleaning system that separates data understanding, AI reasoning, human approval, deterministic execution, validation and versioning, exposing a web UI and backend API.",
+      technologies: ["Python","FastAPI","React","Vercel","OnRender","Google Gemini"],
+      github: "https://github.com/pvsatvika/Data_Forge",
+      demo: "https://data-forge-phi-six.vercel.app/"
+    }
 ];
 
 export const moreProjects = [
