@@ -28,13 +28,13 @@ export default function FeaturedProjects() {
   const filteredProjects = featuredProjects.filter((project) => {
     if (filter === 'all') return true;
     if (filter === 'ai') {
-      return project.id === 'smartbundle-ai' || project.id === 'ruralrise' || project.id === 'foodlink-ai';
+      return project.category.toLowerCase().includes('ai');
     }
     if (filter === 'web') {
-      return project.id === 'novelnest' || project.id === 'customcraft' || project.id === 'bugtrace' || project.id === 'foodlink-ai';
+      return project.category.toLowerCase().includes('web');
     }
     if (filter === 'hackathon') {
-      return project.category.includes('Hackathon') || project.category.includes('SIH') || project.id === 'foodlink-ai';
+      return project.category.includes('Hackathon') || project.category.includes('SIH');
     }
     return true;
   });
