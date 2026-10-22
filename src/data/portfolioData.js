@@ -439,6 +439,61 @@ export const certifications = [
     category: "Hackathon",
     iconName: "Award",
     image: null
+  },
+  {
+    title: "Ananya Speed Mentoring – Early‑Career Success (India)",
+    fullTitle: "Certificate of Completion – Ananya Speed Mentoring (India)",
+    issuer: "Ananya",
+    category: "Mentoring",
+    iconName: "Award",
+    recipient: "Chebiyyam Sri Yuktha",
+    date: "2026",
+    image: "certificates/ananya-speed-mentoring.png"
+  },
+  {
+    title: "HackWithHyderabad 3.0",
+    issuer: "Hack With India × Devnovate",
+    category: "Hackathon",
+    iconName: "Award",
+    recipient: "Chebiyyam Sri Yuktha",
+    date: "3 Oct 2026",
+    image: "certificates/hackwithhyderabad-3.png"
+  },
+  {
+    title: "NRCM’s CodeStorm 2K26",
+    issuer: "Career Development Centre, Narsimha Reddy Engineering College",
+    category: "Hackathon",
+    iconName: "Award",
+    recipient: "Chebiyyam Sri Yuktha",
+    date: "30 Sep – 1 Oct 2026",
+    image: "certificates/nrcm-codestorm-2k26.png"
+  },
+  {
+    title: "SheCommerce – “Rewire for Success”",
+    issuer: "Myntra × Aspire For Her",
+    category: "Learning Series",
+    iconName: "Award",
+    recipient: "Chebiyyam Sri Yuktha",
+    date: "29 Sep 2026 (virtual)",
+    image: "certificates/shecommerce-rewire.png"
+  },
+  {
+    title: "Engineer’s Day 2026 – Prompt Wars",
+    issuer: "BVRIT Hyderabad College of Engineering for Women",
+    category: "Hackathon",
+    iconName: "Award",
+    recipient: "Chebiyyam Sri Yuktha",
+    date: "17 Sep 2026",
+    image: "certificates/engineers-day-prompt-wars.png"
+  },
+  {
+    title: "Engineer’s Day 2026 – Web2Cart",
+    issuer: "BVRIT Hyderabad College of Engineering for Women",
+    category: "Hackathon",
+    iconName: "Award",
+    recipient: "Chebiyyam Sri Yuktha",
+    date: "17 Sep 2026",
+    image: "certificates/engineers-day-web2cart.png"
   }
 ];
 
